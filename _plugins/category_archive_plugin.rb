@@ -81,7 +81,7 @@ module Jekyll
 
       if site.config['category_archive'] && site.config['category_archive']['slugify']
         @category_dir_name = Utils.slugify(@category) # require sanitize here
-      else 
+      else
         @category_dir_name = @category
       end
 
